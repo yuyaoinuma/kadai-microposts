@@ -14,7 +14,4 @@ class RelationshipsController < ApplicationController
     flash[:success] = 'ユーザのフォローを解除しました。'
     redirect_to user
   end
-  
-  
-  
 end
